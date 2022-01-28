@@ -1,0 +1,141 @@
+html{
+    font-size: 62.5%;
+}
+
+body {
+    background-color:rgb(221, 218, 218)
+    
+}
+
+.navbar-brand {
+    font-size: 6rem;
+    font-family: 'Permanent Marker', cursive; 
+    letter-spacing: .7rem;
+    margin-left: 2rem;
+}
+
+.navbar {
+    overflow: hidden;
+    width: 100%;
+    z-index: 1;
+    margin-bottom: .5rem;
+}
+
+nav a {
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    letter-spacing: .1rem;
+}
+
+
+.navbar-collapse {
+    margin-left: 48rem;
+}
+
+.AboutUs {
+    margin: auto;;
+    color: black;
+}
+
+.even-row1 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: .5rem;
+    justify-content: space-between;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.even-row1 > * {
+    max-width: 415px;
+    max-height: 415px;
+    min-height: 415px;
+}
+
+.even-row1 img {
+    border-radius: 2rem;
+}
+
+#img1 {
+    min-width: 452px;
+    max-width: 460px;  
+}
+
+#img2 {
+    min-width: 800px; 
+    max-width: 800px;
+}
+
+.even-row2 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: .5rem;
+    justify-content: space-between;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.even-row2 > * {
+    max-width: 454px;
+    max-height: 415px;
+    min-width: 400px;
+}
+    
+.even-row2 img {
+    border-radius: 2rem;
+}
+
+.even-row3 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+    justify-content: space-between;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.even-row3 > * {
+    max-height: 400px;
+    min-width: 400px;
+    min-height: 415px;
+    
+}
+    
+.even-row3 img {
+    border-radius: 2rem;
+}
+
+#img3 {
+    min-width: 800px; 
+    max-width: 800px;
+}
+
+#img4{
+    min-width: 452px;
+    max-width: 460px;
+}
+
+.social-wrapper {
+    border-top: ridge;
+    border-bottom: ridge;
+    margin-bottom: 8rem;
+    margin-left: 30rem;
+    margin-right: 30rem;
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+    padding-right: 10rem;
+}
+
+.social {
+    display: flex;
+    flex-wrap: nowrap;
+    letter-spacing: 1rem;
+    margin-left: 22rem;
+}
+
+.footer{
+    font-size: .5rem;
+    margin-bottom: 6rem;
+    margin-left: 40px;
+}
+
